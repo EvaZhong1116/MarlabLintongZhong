@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    border: 1px solid black;
+    height: 2em;
+    
+}
+
+.content {
+    border: 1px solid black;
+    flex-direction: row;
+    display: flex;
+    height: 8em;
+}
+
+.article {
+    border: 1px solid black;
+    width: 70%;
+}
+
+.aside {
+    border: 1px solid black;
+    width: 30%;
+}
+
+.footer {
+    border: 1px solid black;
+    display: flex;
+    height: 2em;
+}
+
+@media (max-width: 390px) {
+    .content {   
+        flex-direction: column;
+    }
+    .article {
+        height: 70%;
+        width: 100%;
+    }
+    .aside {
+        height: 30%;
+        width: 100%;
+    }
+}

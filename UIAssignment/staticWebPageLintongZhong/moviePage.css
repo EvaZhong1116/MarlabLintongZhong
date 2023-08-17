@@ -1,0 +1,94 @@
+body {
+    font-family: poppins;
+    background-color: rgba(151,151,151,0.03);
+}
+
+
+.logo img {
+    height: 45px;
+}
+
+.menu {
+    display:inline;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 1px rgba(0, 0, 0, 0.04);
+    background-color: #ffffff;
+}
+
+.menu a {
+    height: 40px;
+    line-height: 43px;
+    padding: 0px 20px;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #585858;
+    transition: all 1s ease-out;
+}
+
+.menu a:hover, .menu a:focus {
+    background-color: lightblue;
+    color: red;
+}
+
+.Sciheading {
+    margin: 30px;
+}
+
+.moviebox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px black;
+    margin: 20px 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+    height: 400px;
+    background-color: #ffffff;
+}
+
+.movieimage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 1s ease-out;
+}
+
+.movieimage:hover {
+    transform: scale(1.2);
+}
+
+.imgdiv {
+    border: 0%;
+}
+
+.scitext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.movieBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+.item {
+    margin: 10px;
+}
